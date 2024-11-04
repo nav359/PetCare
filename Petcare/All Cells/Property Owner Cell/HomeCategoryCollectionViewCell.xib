@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCategoryCollectionViewCell" id="67O-Fx-R3L" customClass="HomeCategoryCollectionViewCell" customModule="Petcare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="199"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0s1-fW-3Kf">
+                <rect key="frame" x="0.0" y="0.0" width="202" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fsd-5t-s9I">
+                        <rect key="frame" x="0.0" y="0.0" width="202" height="199"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xZT-Iw-sAZ">
+                                <rect key="frame" x="10" y="56.5" width="182" height="86"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="03" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-OV-dMl">
+                                        <rect key="frame" x="58.5" y="0.0" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="Qkq-ho-L74"/>
+                                            <constraint firstAttribute="width" constant="65" id="gqO-jf-a6Y"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category Test" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfn-WR-Iim">
+                                        <rect key="frame" x="0.0" y="65" width="182" height="21"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xZT-Iw-sAZ" firstAttribute="centerY" secondItem="Fsd-5t-s9I" secondAttribute="centerY" id="0mx-lT-370"/>
+                            <constraint firstAttribute="trailing" secondItem="Vfn-WR-Iim" secondAttribute="trailing" constant="10" id="M9B-y1-uQX"/>
+                            <constraint firstItem="Vfn-WR-Iim" firstAttribute="leading" secondItem="Fsd-5t-s9I" secondAttribute="leading" constant="10" id="ygR-UT-LbZ"/>
+                            <constraint firstItem="xZT-Iw-sAZ" firstAttribute="centerX" secondItem="Fsd-5t-s9I" secondAttribute="centerX" id="zhJ-Ws-19e"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fsd-5t-s9I" firstAttribute="leading" secondItem="0s1-fW-3Kf" secondAttribute="leading" id="9IT-2q-8OJ"/>
+                    <constraint firstAttribute="trailing" secondItem="Fsd-5t-s9I" secondAttribute="trailing" id="9Mx-xi-awT"/>
+                    <constraint firstAttribute="bottom" secondItem="Fsd-5t-s9I" secondAttribute="bottom" id="Ruc-Yk-qJ8"/>
+                    <constraint firstItem="Fsd-5t-s9I" firstAttribute="top" secondItem="0s1-fW-3Kf" secondAttribute="top" id="jnH-tU-58R"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="202" height="199"/>
+            <connections>
+                <outlet property="categoryImage" destination="Kfg-OV-dMl" id="qn9-zg-dqG"/>
+                <outlet property="categoryName" destination="Vfn-WR-Iim" id="j1o-fm-acz"/>
+            </connections>
+            <point key="canvasLocation" x="-160.86956521739131" y="70.647321428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="03" width="337" height="281"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

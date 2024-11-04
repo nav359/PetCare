@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MedicalAwarenessCollectionViewCell" id="uLM-fM-esF" customClass="MedicalAwarenessCollectionViewCell" customModule="Petcare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="201" height="224"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Zyk-ub-a3v">
+                <rect key="frame" x="0.0" y="0.0" width="201" height="224"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jQ1-Lh-agR">
+                        <rect key="frame" x="0.0" y="0.0" width="201" height="224"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="service-8" translatesAutoresizingMaskIntoConstraints="NO" id="2cB-Ul-h15">
+                                <rect key="frame" x="12" y="11" width="177" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="bGV-ZA-CMQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veranity Product" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5x-Kf-LyT">
+                                <rect key="frame" x="0.0" y="171" width="201" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2cB-Ul-h15" firstAttribute="leading" secondItem="jQ1-Lh-agR" secondAttribute="leading" constant="12" id="HKw-yJ-DKY"/>
+                            <constraint firstAttribute="trailing" secondItem="H5x-Kf-LyT" secondAttribute="trailing" id="Ksi-x5-iHK"/>
+                            <constraint firstItem="H5x-Kf-LyT" firstAttribute="leading" secondItem="jQ1-Lh-agR" secondAttribute="leading" id="MSt-MP-6oK"/>
+                            <constraint firstAttribute="trailing" secondItem="H5x-Kf-LyT" secondAttribute="trailing" id="OSJ-ih-uoo"/>
+                            <constraint firstAttribute="trailing" secondItem="2cB-Ul-h15" secondAttribute="trailing" constant="12" id="aKm-sn-Xq6"/>
+                            <constraint firstItem="H5x-Kf-LyT" firstAttribute="leading" secondItem="jQ1-Lh-agR" secondAttribute="leading" id="cbq-gc-Hzd"/>
+                            <constraint firstItem="H5x-Kf-LyT" firstAttribute="top" secondItem="2cB-Ul-h15" secondAttribute="bottom" constant="5" id="qRY-Wx-fjT"/>
+                            <constraint firstItem="2cB-Ul-h15" firstAttribute="top" secondItem="jQ1-Lh-agR" secondAttribute="top" constant="11" id="tzf-il-f2R"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="jQ1-Lh-agR" secondAttribute="trailing" id="2e9-Tn-kvY"/>
+                    <constraint firstItem="jQ1-Lh-agR" firstAttribute="top" secondItem="Zyk-ub-a3v" secondAttribute="top" id="N2o-7v-WfI"/>
+                    <constraint firstAttribute="bottom" secondItem="jQ1-Lh-agR" secondAttribute="bottom" id="TS2-uA-A1A"/>
+                    <constraint firstItem="jQ1-Lh-agR" firstAttribute="leading" secondItem="Zyk-ub-a3v" secondAttribute="leading" id="Xth-jX-mMO"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="201" height="224"/>
+            <connections>
+                <outlet property="mainImage" destination="2cB-Ul-h15" id="YsX-Vg-UiM"/>
+                <outlet property="mainTitle" destination="H5x-Kf-LyT" id="rwo-HP-1HL"/>
+            </connections>
+            <point key="canvasLocation" x="463.04347826086962" y="215.625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="service-8" width="960" height="640"/>
+    </resources>
+</document>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AppointmentTableViewCell" rowHeight="95" id="T9m-9R-Grd" customClass="AppointmentTableViewCell" customModule="Petcare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T9m-9R-Grd" id="G0H-KO-nv8">
+                <rect key="frame" x="0.0" y="0.0" width="484" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIR-wX-gJt">
+                        <rect key="frame" x="5" y="5" width="474" height="85"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sept 15" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSj-JP-HjC">
+                                <rect key="frame" x="8" y="20.5" width="34" height="44.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="MHW-Hh-d1W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="service-1" translatesAutoresizingMaskIntoConstraints="NO" id="3u4-JM-wzQ">
+                                <rect key="frame" x="45" y="13.5" width="58" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="MVY-mT-l5U"/>
+                                    <constraint firstAttribute="width" constant="58" id="yLV-rH-CPp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hugh Jackman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wU-hL-U7d">
+                                <rect key="frame" x="111" y="13.5" width="355" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hugh Jackman Lorem Ipsum is simply dummy text of the printing. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egy-rb-FU5">
+                                <rect key="frame" x="111" y="36" width="363" height="36.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Egy-rb-FU5" firstAttribute="leading" secondItem="3u4-JM-wzQ" secondAttribute="trailing" constant="8" id="3G4-4u-WfP"/>
+                            <constraint firstItem="0wU-hL-U7d" firstAttribute="leading" secondItem="3u4-JM-wzQ" secondAttribute="trailing" constant="8" id="53d-bS-PYX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0wU-hL-U7d" secondAttribute="trailing" id="BWc-kS-ewA"/>
+                            <constraint firstItem="DSj-JP-HjC" firstAttribute="centerY" secondItem="oIR-wX-gJt" secondAttribute="centerY" id="KuK-zj-8mF"/>
+                            <constraint firstItem="3u4-JM-wzQ" firstAttribute="leading" secondItem="DSj-JP-HjC" secondAttribute="trailing" constant="3" id="QIl-Ri-b7h"/>
+                            <constraint firstItem="3u4-JM-wzQ" firstAttribute="centerY" secondItem="DSj-JP-HjC" secondAttribute="centerY" id="Vwc-PE-vOH"/>
+                            <constraint firstItem="Egy-rb-FU5" firstAttribute="top" secondItem="0wU-hL-U7d" secondAttribute="bottom" id="ZYp-AE-DX8"/>
+                            <constraint firstItem="0wU-hL-U7d" firstAttribute="top" secondItem="3u4-JM-wzQ" secondAttribute="top" id="a2e-eh-OTD"/>
+                            <constraint firstAttribute="trailing" secondItem="Egy-rb-FU5" secondAttribute="trailing" id="bKn-mp-Fxl"/>
+                            <constraint firstItem="DSj-JP-HjC" firstAttribute="leading" secondItem="oIR-wX-gJt" secondAttribute="leadingMargin" id="uhg-rv-WCL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="oIR-wX-gJt" secondAttribute="bottom" constant="5" id="ShJ-GL-X6a"/>
+                    <constraint firstItem="oIR-wX-gJt" firstAttribute="top" secondItem="G0H-KO-nv8" secondAttribute="top" constant="5" id="Uqa-df-ThJ"/>
+                    <constraint firstAttribute="trailing" secondItem="oIR-wX-gJt" secondAttribute="trailing" constant="5" id="cDs-Pl-Bh7"/>
+                    <constraint firstItem="oIR-wX-gJt" firstAttribute="leading" secondItem="G0H-KO-nv8" secondAttribute="leading" constant="5" id="luO-xk-iMI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backView" destination="oIR-wX-gJt" id="dvC-EY-afz"/>
+                <outlet property="custImage" destination="3u4-JM-wzQ" id="VzG-qq-Faq"/>
+                <outlet property="date" destination="DSj-JP-HjC" id="Ct0-LB-sgv"/>
+                <outlet property="descriptionLabel" destination="Egy-rb-FU5" id="eVj-zl-xBD"/>
+                <outlet property="title" destination="0wU-hL-U7d" id="q6C-g5-VIj"/>
+            </connections>
+            <point key="canvasLocation" x="82.608695652173921" y="126.89732142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="service-1" width="164" height="164"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

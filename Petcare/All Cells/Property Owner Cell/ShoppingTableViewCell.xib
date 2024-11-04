@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShoppingTableViewCell" rowHeight="244" id="ysl-OF-Pox" customClass="ShoppingTableViewCell" customModule="Petcare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="244"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ysl-OF-Pox" id="Ebf-FA-CKU">
+                <rect key="frame" x="0.0" y="0.0" width="404" height="244"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oj7-vz-C6u">
+                        <rect key="frame" x="0.0" y="5" width="404" height="234"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ig-km-3QR" customClass="CustomView" customModule="Petcare" customModuleProvider="target">
+                                <rect key="frame" x="271" y="8" width="110" height="110"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1511182180" translatesAutoresizingMaskIntoConstraints="NO" id="dGe-55-35C">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dGe-55-35C" secondAttribute="trailing" id="5Hr-MM-Ynw"/>
+                                    <constraint firstItem="dGe-55-35C" firstAttribute="leading" secondItem="5Ig-km-3QR" secondAttribute="leading" id="Ark-Pc-1eJ"/>
+                                    <constraint firstAttribute="width" constant="110" id="CRV-ur-t0z"/>
+                                    <constraint firstAttribute="height" constant="110" id="Mf1-i6-bbf"/>
+                                    <constraint firstItem="dGe-55-35C" firstAttribute="top" secondItem="5Ig-km-3QR" secondAttribute="top" id="Yby-43-xJ5"/>
+                                    <constraint firstAttribute="bottom" secondItem="dGe-55-35C" secondAttribute="bottom" id="uFe-DQ-YeH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name : Petcare Kit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clx-e1-DIy">
+                                <rect key="frame" x="28" y="23" width="243" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.24705882352941178" green="0.23137254901960785" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seller : Petcare" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wku-Vo-mka">
+                                <rect key="frame" x="28" y="43.5" width="243" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.90588235289999997" green="0.078431372550000003" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD 250" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRT-XC-74K">
+                                <rect key="frame" x="28" y="76" width="243" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 offer available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3k-Ul-qjj">
+                                <rect key="frame" x="28" y="99.5" width="238" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery in 8-10 days" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbK-L5-oAn">
+                                <rect key="frame" x="28" y="133" width="238" height="17"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                <color key="textColor" red="0.2470588235" green="0.23137254900000001" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyZ-eW-fct">
+                                <rect key="frame" x="281" y="126.5" width="100" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bu1-Ba-zrQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <state key="normal" title="Qty : 1 ">
+                                    <color key="titleColor" red="0.90588235289999997" green="0.078431372550000003" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IkU-Nu-eL8">
+                                <rect key="frame" x="28" y="176.5" width="353" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLi-fp-LIJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="166.5" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="do4-Jb-lye"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                        <state key="normal" title="Save for later">
+                                            <color key="titleColor" red="0.2470588235" green="0.23137254900000001" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfE-DA-8TX">
+                                        <rect key="frame" x="186.5" y="0.0" width="166.5" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="dcE-Y0-vAS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                        <state key="normal" title="Remove" image="delete-gray">
+                                            <color key="titleColor" red="0.2470588235" green="0.23137254900000001" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5Ig-km-3QR" firstAttribute="trailing" secondItem="Oj7-vz-C6u" secondAttribute="trailingMargin" constant="-15" id="0Ke-aD-KOz"/>
+                            <constraint firstItem="5Ig-km-3QR" firstAttribute="leading" secondItem="c3k-Ul-qjj" secondAttribute="trailing" constant="5" id="2KX-0Y-C0A"/>
+                            <constraint firstItem="5Ig-km-3QR" firstAttribute="leading" secondItem="gRT-XC-74K" secondAttribute="trailing" id="4TP-wI-nEt"/>
+                            <constraint firstItem="clx-e1-DIy" firstAttribute="leading" secondItem="Oj7-vz-C6u" secondAttribute="leadingMargin" constant="20" id="5Kw-XT-iyz"/>
+                            <constraint firstItem="5Ig-km-3QR" firstAttribute="leading" secondItem="clx-e1-DIy" secondAttribute="trailing" id="5Ot-BC-rEa"/>
+                            <constraint firstItem="gbK-L5-oAn" firstAttribute="leading" secondItem="c3k-Ul-qjj" secondAttribute="leading" id="BmJ-vP-AiB"/>
+                            <constraint firstItem="IkU-Nu-eL8" firstAttribute="trailing" secondItem="xyZ-eW-fct" secondAttribute="trailing" id="Mbv-RS-7Ut"/>
+                            <constraint firstItem="IkU-Nu-eL8" firstAttribute="leading" secondItem="gbK-L5-oAn" secondAttribute="leading" id="TUC-jd-6Oi"/>
+                            <constraint firstItem="clx-e1-DIy" firstAttribute="top" secondItem="dGe-55-35C" secondAttribute="top" constant="15" id="VNv-mW-Myq"/>
+                            <constraint firstItem="gbK-L5-oAn" firstAttribute="top" secondItem="c3k-Ul-qjj" secondAttribute="bottom" constant="15" id="Vtl-dS-CAS"/>
+                            <constraint firstItem="Wku-Vo-mka" firstAttribute="leading" secondItem="Oj7-vz-C6u" secondAttribute="leadingMargin" constant="20" id="XOJ-bN-gS6"/>
+                            <constraint firstItem="gbK-L5-oAn" firstAttribute="trailing" secondItem="c3k-Ul-qjj" secondAttribute="trailing" id="a9Q-mj-9Uo"/>
+                            <constraint firstItem="c3k-Ul-qjj" firstAttribute="leading" secondItem="Oj7-vz-C6u" secondAttribute="leadingMargin" constant="20" id="aQS-We-Ng7"/>
+                            <constraint firstItem="xyZ-eW-fct" firstAttribute="leading" secondItem="5Ig-km-3QR" secondAttribute="leading" constant="10" id="ajQ-S9-HUj"/>
+                            <constraint firstItem="5Ig-km-3QR" firstAttribute="leading" secondItem="Wku-Vo-mka" secondAttribute="trailing" id="bMX-Iy-g2u"/>
+                            <constraint firstItem="5Ig-km-3QR" firstAttribute="top" secondItem="Oj7-vz-C6u" secondAttribute="topMargin" id="kwZ-tz-Ei2"/>
+                            <constraint firstItem="gRT-XC-74K" firstAttribute="centerY" secondItem="5Ig-km-3QR" secondAttribute="centerY" constant="22" id="qDS-lh-dd3"/>
+                            <constraint firstItem="c3k-Ul-qjj" firstAttribute="bottom" secondItem="dGe-55-35C" secondAttribute="bottom" id="raW-yF-jgm"/>
+                            <constraint firstItem="gRT-XC-74K" firstAttribute="leading" secondItem="Oj7-vz-C6u" secondAttribute="leadingMargin" constant="20" id="sCj-Xh-aGJ"/>
+                            <constraint firstItem="IkU-Nu-eL8" firstAttribute="top" secondItem="xyZ-eW-fct" secondAttribute="bottom" constant="20" id="tXi-as-BU3"/>
+                            <constraint firstItem="xyZ-eW-fct" firstAttribute="centerY" secondItem="gbK-L5-oAn" secondAttribute="centerY" id="v2r-K7-w1Q"/>
+                            <constraint firstItem="Wku-Vo-mka" firstAttribute="top" secondItem="clx-e1-DIy" secondAttribute="bottom" constant="2" id="vqD-Y0-Cmk"/>
+                            <constraint firstItem="xyZ-eW-fct" firstAttribute="trailing" secondItem="5Ig-km-3QR" secondAttribute="trailing" id="xd0-hd-nTT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                <constraints>
+                    <constraint firstItem="Oj7-vz-C6u" firstAttribute="leading" secondItem="Ebf-FA-CKU" secondAttribute="leading" id="5w7-Wn-RvY"/>
+                    <constraint firstAttribute="trailing" secondItem="Oj7-vz-C6u" secondAttribute="trailing" id="7gZ-vi-YOI"/>
+                    <constraint firstItem="Oj7-vz-C6u" firstAttribute="top" secondItem="Ebf-FA-CKU" secondAttribute="top" constant="5" id="nju-9Y-xDD"/>
+                    <constraint firstAttribute="bottom" secondItem="Oj7-vz-C6u" secondAttribute="bottom" constant="5" id="uON-lI-ksB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="quantityButton" destination="xyZ-eW-fct" id="9ZN-CD-wmZ"/>
+                <outlet property="removeButton" destination="dfE-DA-8TX" id="FIX-2Y-MrT"/>
+                <outlet property="saveForLatter" destination="lLi-fp-LIJ" id="RFB-33-lUm"/>
+            </connections>
+            <point key="canvasLocation" x="-62.318840579710148" y="-125.22321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="1511182180" width="900" height="600"/>
+        <image name="delete-gray" width="14" height="18"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

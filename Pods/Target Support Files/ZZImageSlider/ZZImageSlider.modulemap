@@ -1,0 +1,6 @@
+framework module ZZImageSlider {
+  umbrella header "ZZImageSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

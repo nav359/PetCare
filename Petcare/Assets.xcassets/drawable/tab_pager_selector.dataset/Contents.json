@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "tab_pager_selector.xml",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

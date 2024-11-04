@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventsCell" rowHeight="169" id="OUw-gb-NDt" customClass="EventsCell" customModule="Petcare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="497" height="169"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OUw-gb-NDt" id="Rce-Hh-LNZ">
+                <rect key="frame" x="0.0" y="0.0" width="497" height="169"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sl2-Xg-5LJ">
+                        <rect key="frame" x="0.0" y="0.0" width="497" height="169"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vaccination_1" translatesAutoresizingMaskIntoConstraints="NO" id="vje-Ep-0qC">
+                                <rect key="frame" x="8" y="9.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="BLw-sj-mbS"/>
+                                    <constraint firstAttribute="height" constant="150" id="Hda-ZQ-udG"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeu-dn-Z9F">
+                                <rect key="frame" x="166" y="8" width="25" height="25"/>
+                                <color key="backgroundColor" red="0.90588235289999997" green="0.078431372550000003" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="8FM-he-IQ8"/>
+                                    <constraint firstAttribute="width" constant="25" id="kaD-XI-6my"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="05 Sept">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="8" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="33" translatesAutoresizingMaskIntoConstraints="NO" id="OFo-gL-Hhi">
+                                <rect key="frame" x="196" y="8" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="3ge-xe-2YE"/>
+                                    <constraint firstAttribute="height" constant="10" id="kX9-bI-IcT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_location" translatesAutoresizingMaskIntoConstraints="NO" id="hgv-SL-dia">
+                                <rect key="frame" x="196" y="21" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="9tn-fS-I4L"/>
+                                    <constraint firstAttribute="height" constant="10" id="Det-PC-29r"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday at 13:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1R-uk-n38">
+                                <rect key="frame" x="211" y="8" width="286" height="10"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="89, Nework City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SM0-pf-vQO">
+                                <rect key="frame" x="211" y="21" width="286" height="12"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="9"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Care for every pet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pl-Ds-9s6">
+                                <rect key="frame" x="166" y="38" width="331" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdt-B1-0fs">
+                                <rect key="frame" x="166" y="56.5" width="331" height="57.5"/>
+                                <string key="text">Please note that product prices and availability are subject to change. Prices and availability were accurate at the time this newsletter was sent; however, they may differ from those you see when you visit Amazon.in.</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDZ-sC-O3W">
+                                <rect key="frame" x="166" y="138.5" width="100" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="PEl-EZ-Hot"/>
+                                    <constraint firstAttribute="width" constant="100" id="gSf-pM-9dS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                <state key="normal" title="Read More">
+                                    <color key="titleColor" red="0.90588235289999997" green="0.078431372550000003" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eeu-dn-Z9F" firstAttribute="leading" secondItem="vje-Ep-0qC" secondAttribute="trailing" constant="8" id="352-CR-XcQ"/>
+                            <constraint firstItem="mdt-B1-0fs" firstAttribute="leading" secondItem="8pl-Ds-9s6" secondAttribute="leading" id="3St-sJ-g3X"/>
+                            <constraint firstItem="G1R-uk-n38" firstAttribute="bottom" secondItem="OFo-gL-Hhi" secondAttribute="bottom" id="Ajz-jz-Aqf"/>
+                            <constraint firstItem="OFo-gL-Hhi" firstAttribute="top" secondItem="Sl2-Xg-5LJ" secondAttribute="topMargin" id="DHR-B4-mbT"/>
+                            <constraint firstItem="mdt-B1-0fs" firstAttribute="top" secondItem="8pl-Ds-9s6" secondAttribute="bottom" id="Hga-KE-kYK"/>
+                            <constraint firstItem="SM0-pf-vQO" firstAttribute="leading" secondItem="G1R-uk-n38" secondAttribute="leading" id="IHU-BM-7HN"/>
+                            <constraint firstAttribute="trailing" secondItem="8pl-Ds-9s6" secondAttribute="trailing" id="NYI-1e-Er6"/>
+                            <constraint firstItem="8pl-Ds-9s6" firstAttribute="top" secondItem="eeu-dn-Z9F" secondAttribute="bottom" constant="5" id="PC6-Vu-lES"/>
+                            <constraint firstItem="8pl-Ds-9s6" firstAttribute="leading" secondItem="eeu-dn-Z9F" secondAttribute="leading" id="PYC-NF-MQ5"/>
+                            <constraint firstItem="G1R-uk-n38" firstAttribute="leading" secondItem="OFo-gL-Hhi" secondAttribute="trailing" constant="5" id="PoD-2L-e3W"/>
+                            <constraint firstItem="eeu-dn-Z9F" firstAttribute="top" secondItem="Sl2-Xg-5LJ" secondAttribute="topMargin" id="R9k-mF-cLp"/>
+                            <constraint firstItem="SM0-pf-vQO" firstAttribute="top" secondItem="hgv-SL-dia" secondAttribute="top" id="ST8-HG-m3w"/>
+                            <constraint firstItem="gDZ-sC-O3W" firstAttribute="leading" secondItem="mdt-B1-0fs" secondAttribute="leading" id="Tgp-zX-V9J"/>
+                            <constraint firstItem="vje-Ep-0qC" firstAttribute="centerY" secondItem="Sl2-Xg-5LJ" secondAttribute="centerY" id="Tmb-fF-aJN"/>
+                            <constraint firstItem="G1R-uk-n38" firstAttribute="top" secondItem="OFo-gL-Hhi" secondAttribute="top" id="Y4A-3f-0AT"/>
+                            <constraint firstItem="hgv-SL-dia" firstAttribute="leading" secondItem="eeu-dn-Z9F" secondAttribute="trailing" constant="5" id="aeA-N2-hWO"/>
+                            <constraint firstItem="gDZ-sC-O3W" firstAttribute="bottom" secondItem="vje-Ep-0qC" secondAttribute="bottom" id="agF-Oa-pex"/>
+                            <constraint firstItem="OFo-gL-Hhi" firstAttribute="leading" secondItem="eeu-dn-Z9F" secondAttribute="trailing" constant="5" id="emZ-zB-Icg"/>
+                            <constraint firstAttribute="trailing" secondItem="G1R-uk-n38" secondAttribute="trailing" id="iWP-j8-ZcE"/>
+                            <constraint firstItem="hgv-SL-dia" firstAttribute="top" secondItem="OFo-gL-Hhi" secondAttribute="bottom" constant="3" id="lHv-D7-4C3"/>
+                            <constraint firstItem="vje-Ep-0qC" firstAttribute="leading" secondItem="Sl2-Xg-5LJ" secondAttribute="leadingMargin" id="oNX-l7-iJt"/>
+                            <constraint firstItem="mdt-B1-0fs" firstAttribute="trailing" secondItem="8pl-Ds-9s6" secondAttribute="trailing" id="xhB-su-mFZ"/>
+                            <constraint firstItem="SM0-pf-vQO" firstAttribute="trailing" secondItem="G1R-uk-n38" secondAttribute="trailing" id="zb4-KZ-GRz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Sl2-Xg-5LJ" secondAttribute="bottom" id="7AH-we-gRt"/>
+                    <constraint firstItem="Sl2-Xg-5LJ" firstAttribute="top" secondItem="Rce-Hh-LNZ" secondAttribute="top" id="Md2-Zw-88s"/>
+                    <constraint firstItem="Sl2-Xg-5LJ" firstAttribute="leading" secondItem="Rce-Hh-LNZ" secondAttribute="leading" id="XgU-xi-6ec"/>
+                    <constraint firstAttribute="trailing" secondItem="Sl2-Xg-5LJ" secondAttribute="trailing" id="zbA-n2-RSg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="petImage" destination="vje-Ep-0qC" id="0VF-0h-AhG"/>
+                <outlet property="seeMoreButton" destination="gDZ-sC-O3W" id="ul3-eg-udb"/>
+            </connections>
+            <point key="canvasLocation" x="105.07246376811595" y="192.52232142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="33" width="111" height="111"/>
+        <image name="ic_location" width="24" height="24"/>
+        <image name="vaccination_1" width="647" height="432"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

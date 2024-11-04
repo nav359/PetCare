@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FutuBk.ttf">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="gDZ-C9-AKt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEL-Kj-MlN">
+                                <rect key="frame" x="0.0" y="398" width="414" height="100"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="oeY-hx-Leo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="oeY-hx-Leo" firstAttribute="top" secondItem="oEL-Kj-MlN" secondAttribute="top" id="HY2-PI-sN7"/>
+                                    <constraint firstAttribute="trailing" secondItem="oeY-hx-Leo" secondAttribute="trailing" id="cvv-bL-Jc5"/>
+                                    <constraint firstAttribute="height" constant="100" id="jfS-1s-euC"/>
+                                    <constraint firstAttribute="bottom" secondItem="oeY-hx-Leo" secondAttribute="bottom" id="paz-Sz-CzF"/>
+                                    <constraint firstItem="oeY-hx-Leo" firstAttribute="leading" secondItem="oEL-Kj-MlN" secondAttribute="leading" id="zwa-Hg-5jO"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V.1.01" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T3-Vp-yxm">
+                                <rect key="frame" x="0.0" y="842.5" width="414" height="19.5"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura Bk BT" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gDZ-C9-AKt" secondAttribute="bottom" id="9nV-DO-vag"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1T3-Vp-yxm" secondAttribute="trailing" id="CH1-EQ-y5a"/>
+                            <constraint firstItem="1T3-Vp-yxm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="CfX-6F-2hI"/>
+                            <constraint firstItem="oEL-Kj-MlN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Fgt-5J-zus"/>
+                            <constraint firstItem="gDZ-C9-AKt" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Ics-Vu-V97"/>
+                            <constraint firstItem="oEL-Kj-MlN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YzQ-wU-V9c"/>
+                            <constraint firstItem="gDZ-C9-AKt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a1Y-Nl-f4N"/>
+                            <constraint firstItem="oEL-Kj-MlN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cYp-Db-GQO"/>
+                            <constraint firstItem="gDZ-C9-AKt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lMl-ju-P7P"/>
+                            <constraint firstItem="1T3-Vp-yxm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mw8-Go-9uv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oEL-Kj-MlN" secondAttribute="trailing" id="ywW-Rr-uoX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="731" height="232"/>
+        <image name="splash" width="1119" height="2423"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
