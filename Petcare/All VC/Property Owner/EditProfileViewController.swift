@@ -29,7 +29,7 @@ class EditProfileViewController: UIViewController, UIImagePickerControllerDelega
     @IBOutlet weak var DOBLabel: UILabel!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() //
       //  dobTextView.addTarget(self, action: #selector(datePickerAction), for: .editingDidBegin)
         usernameView.addBottomBorderWithColor(color: UIColor.lightGray, width: 0.5)
         emailView.addBottomBorderWithColor(color: UIColor.lightGray, width: 0.5)
