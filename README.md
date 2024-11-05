@@ -22,6 +22,13 @@ An all-in-one pet care app designed for pet lovers, built with a modern user int
   <img src="https://github.com/user-attachments/assets/c8e6136e-594c-4623-99c5-c533db0b9738" width="24%" alt="Screenshot 4">
 </div>
 
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/c46b3ccb-f2e2-49d8-b951-7042b9115717" width="24%" alt="Screenshot 1">
+  <img src="https://github.com/user-attachments/assets/1d2e1444-c01b-4705-99ef-6e063830933a" width="24%" alt="Screenshot 2">
+  <img src="https://github.com/user-attachments/assets/b4ad6c5d-5236-41d6-ad86-cddf406c4fd6" width="24%" alt="Screenshot 3">
+  <img src="https://github.com/user-attachments/assets/60b957ea-2d75-4169-9b97-41547fb9f5e7" width="24%" alt="Screenshot 4">
+</div>
+
 ---
 
 ## Usage
