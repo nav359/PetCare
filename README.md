@@ -14,11 +14,12 @@ An all-in-one pet care app designed for pet lovers, built with a modern user int
 
 ## Screenshots
 
+
 <div style="display: flex; justify-content: space-between;">
-  <img src="![IMG_0393](https://github.com/user-attachments/assets/82f35e1d-73ee-4094-b05b-1312da6aaf0b)" width="24%" alt="Screenshot 1">
-  <img src="![IMG_0394](https://github.com/user-attachments/assets/c42f38ce-a004-4fff-b207-883cbf1a07b3)" width="24%" alt="Screenshot 2">
-  <img src="![IMG_0395](https://github.com/user-attachments/assets/9880bae0-49b3-4b7b-80e4-1de113de9c20)" width="24%" alt="Screenshot 3">
-  <img src="![IMG_0396](https://github.com/user-attachments/assets/c8e6136e-594c-4623-99c5-c533db0b9738)" width="24%" alt="Screenshot 4">
+  <img src="https://github.com/user-attachments/assets/82f35e1d-73ee-4094-b05b-1312da6aaf0b" width="24%" alt="Screenshot 1">
+  <img src="https://github.com/user-attachments/assets/c42f38ce-a004-4fff-b207-883cbf1a07b3" width="24%" alt="Screenshot 2">
+  <img src="https://github.com/user-attachments/assets/9880bae0-49b3-4b7b-80e4-1de113de9c20" width="24%" alt="Screenshot 3">
+  <img src="https://github.com/user-attachments/assets/c8e6136e-594c-4623-99c5-c533db0b9738" width="24%" alt="Screenshot 4">
 </div>
 
 ---
