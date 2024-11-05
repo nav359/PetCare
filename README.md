@@ -1,50 +1,45 @@
 
-# PetCare App Portfolio
+# PetCare App
 
-## Introduction
-PetCare is a user-friendly mobile application designed to make pet care and management more convenient. The app provides features such as pet DNA testing, wellness plans, pet concierge services, and contests. This portfolio showcases the key screens and functionalities of the PetCare app.
+An all-in-one pet care app designed for pet lovers, built with a modern user interface and seamless navigation to make managing your pet’s needs easy and enjoyable.
 
----
+## Features
 
-## Key Features
+- **Discover Great Cafes:** Easily explore pet-friendly cafes and share recommendations.
+- **Pet Services:** Access essential services like Dog DNA Identification, Pet Wellness Plans, and more.
+- **Pet Contests:** Participate in photo contests and showcase your pet’s cuteness.
+- **Customizable Profiles:** Manage your personal and pet information with ease.
+- **Sidebar Menu:** Quick navigation for accessing pet details, wellness programs, event information, and more.
+- **Settings Management:** Update profile settings, manage notifications, and get support.
 
-### 1. Welcome Screen
-- **Visual Appeal:** The app opens with an engaging welcome screen featuring an illustrated design of a person and their dog.
-- **Call to Action:** A prominent "Let's Get Started" button invites users to explore the app.
+## Screenshots
 
-### 2. Login & Registration
-- **Login Options:** Users can log in using email/password or through social platforms like Facebook and Google.
-- **User-Friendly Design:** Simplified form fields and easy-to-access options for new account registration.
-
-### 3. Home Screen
-- **Navigation:** Features a search bar and category tiles for quick access to services like DNA testing, wellness plans, and QR code tracking.
-- **Shop Button:** Users can quickly navigate to the shop section for purchasing pet products.
-- **Highlighted Offers:** Engaging carousel showcasing app features and promotions.
-
-### 4. Service Details
-- **Detailed Information:** Screens provide comprehensive details about services, like the Dog DNA Identification Test, with pricing and additional info.
-- **Interactive Elements:** "Read More" buttons for expanded descriptions.
-
-### 5. Sidebar Menu
-- **Comprehensive Navigation:** Users can access their profile, wellness plans, pet details, and events.
-- **Customizable Profile:** Includes sections for viewing test results, updating pet details, and managing wellness programs.
-
-### 6. Settings Page
-- **User Personalization:** Options for contacting support, changing passwords, managing notifications, and logging out.
-- **Profile Management:** Easy-to-edit profile details, including photo updates and personal information.
-
-### 7. Pet Contest Feature
-- **Interactive Competitions:** Users can participate in pet photo contests and view rankings and likes.
-- **Engagement:** Encourages community involvement and sharing of pet photos.
+<div style="display: flex; justify-content: space-between;">
+  <img src="![IMG_0393](https://github.com/user-attachments/assets/82f35e1d-73ee-4094-b05b-1312da6aaf0b)" width="24%" alt="Screenshot 1">
+  <img src="![IMG_0394](https://github.com/user-attachments/assets/c42f38ce-a004-4fff-b207-883cbf1a07b3)" width="24%" alt="Screenshot 2">
+  <img src="![IMG_0395](https://github.com/user-attachments/assets/9880bae0-49b3-4b7b-80e4-1de113de9c20)" width="24%" alt="Screenshot 3">
+  <img src="![IMG_0396](https://github.com/user-attachments/assets/c8e6136e-594c-4623-99c5-c533db0b9738)" width="24%" alt="Screenshot 4">
+</div>
 
 ---
 
-## Design & Usability
+## Usage
 
-- **Modern Design:** Vibrant colors and engaging graphics create a welcoming atmosphere.
-- **User-Centric Approach:** The app design prioritizes easy navigation and clear access to pet services.
-- **Accessibility:** Simplified icons and easily readable text improve the user experience.
+You can download the app from the App Store when available. Alternatively, you can build the application locally using Xcode:
+
+### Build
+
+1. Clone the project to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/PetCareApp.git
+   ```
+2. Open the `PetCareApp/PetCareApp.xcodeproj` file to launch the project in Xcode.
+3. Click on `PetCareApp` at the top of the project navigator on the left side of Xcode to enter project settings.
+4. Update the Bundle Identifier for the project under TARGETS to ensure it is unique to you.
+5. Start the build process and run the app on your device or simulator.
 
 ---
 
-This portfolio highlights the visual and functional aspects of the PetCare app, demonstrating its effectiveness in managing pet-related services with style and ease.
+## Acknowledgements
+
+Special thanks to all contributors and open-source libraries used in the project.
